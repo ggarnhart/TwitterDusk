@@ -1,0 +1,557 @@
+:root {
+    --body-background: #151d26;
+    --nav: #1f2a37;
+    --text-borders: #0c1116;
+    --tweets-and-timeline: #283647;
+    --weird-windows-and-stuff: #314257;
+    --icon-color: #b4b4b4;
+    --twitter-blue: #4099FF;
+    --text-color: #939ea5;
+}
+
+html{
+    background-color: var(--body-background) !important;
+}
+
+body{
+    background-color: var(--body-background) !important;
+}
+
+
+/* Tweet Composer */
+.modal-content{
+    background-color: var(--tweets-and-timeline) !important;
+}
+.modal-header{
+    background-color: var(--nav) !important;
+}
+/* End Tweet Composer*/
+
+/*Twitter Cards*/
+.TwitterCard-title{
+    color: white !important;
+}
+/*End Twitter Cards*/
+
+/*Twitter Poll Creator*/
+
+.PollingCardComposer{
+    background-color: var(--weird-windows-and-stuff) !important;
+    color: white !important;
+    box-shadow: inset 0 1px 0 var(--body-background) !important; 
+}
+
+.TweetBoxAttachments{
+    border-color: var(--body-background) !important;
+}
+
+input, textarea, div[contenteditable], .t1-select{
+    border-color: var(--body-background) !important;
+}
+
+.PollingCardComposer-pollDuration{
+    border-color: var(--body-background) !important;
+}
+/*End Poll*/
+
+/* gif tweet compose */
+.FoundMediaSearch-content.Caret.Caret--stroked.Caret--top{
+    background-color: var(--weird-windows-and-stuff) !important;
+}
+.FoundMediaSearch-query{
+    background-image: linear-gradient(var(--nav), var(--nav)) !important;
+}
+/*end gif*/
+
+/*DMs*/
+
+.DMActivity-header{
+    background-color: var(--weird-windows-and-stuff) !important;
+    border-bottom-color: var(--body-background) !important;
+    color: white !important;
+}
+
+.DMUpdateName-header{
+    color: white !important;
+}
+
+.DMActivity-title{
+    color: white !important;
+}
+
+.DMActivity-body{
+    background-color: var(--tweets-and-timeline) !important;
+}
+
+.DMInboxItem{
+    border-bottom-color: var(--body-background) !important;
+}
+
+.DMInboxItem:hover {
+    background-color: var(--weird-windows-and-stuff) !important !important !important;
+    text-decoration: none;
+}
+
+.DMInboxItem.is-unread{
+    background-color: var(--weird-windows-and-stuff) !important;
+}
+
+.DirectMessage--received .DirectMessage-message{
+    background-color: var(--weird-windows-and-stuff) !important;
+}
+.DMComposeButton{
+    border-color: var(--weird-windows-and-stuff) !important;
+}
+
+.DMDivider{
+    background-color: var(--body-background) !important;
+    position: absolute;
+}
+
+.EmojiBar-icon{
+    background-color: var(--weird-windows-and-stuff) !important;
+}
+
+.EmojiBar-suggestions{
+    background-color: var(--weird-windows-and-stuff) !important;
+}
+.primary-btn{
+    border-color: var(--weird-windows-and-stuff) !important;
+}
+
+.QuoteTweet-container{
+    background-color: var(--tweets-and-timeline) !important;
+}
+
+#global-actions > li:hover > a, #global-actions > li > a:focus, .nav.right-actions > li > a:hover, .nav.right-actions > li > button:hover, .nav.right-actions > li > a:focus, .nav.right-actions > li > button:focus{
+    color: var(--text-color) !important;
+}
+/*end DMs*/
+
+.js-display-url{
+    color: var(--twitter-blue) !important;
+}
+
+.hovercard{
+    background-color: var(--weird-windows-and-stuff) !important;
+    color: white !important;
+}
+
+.tweet .stats{
+    border-color: var(--body-background) !important;
+}
+
+.stats .stat-count strong{
+    color: var(--text-color) !important;
+}
+
+.permalink .stats .avatar-row a:first-child{
+    border-color: var(--body-background) !important;
+}
+
+.bio-container{
+    color: white !important;
+}
+
+.ProfileNameTruncated{
+    color: white;
+}
+
+.follow-button{
+    color: #939ea5 !important;
+}
+.btn{
+   /* background-image: linear-gradient(#314257,#283647) !important;
+    border-color: var(--tweets-and-timeline) !important; */
+}
+
+.ThreadedConversation-viewOther{
+    background-color: var(--tweets-and-timeline) !important;
+}
+a.view-other-link{
+    color: white !important;
+}
+.ThreadedConversation-showMore{
+    background-color: var(--tweets-and-timeline) !important;
+}
+a.show-more-link{
+    color: white !important;
+}
+ol#stream-items-id{
+    background-color: var(--tweets-and-timeline) !important;
+}
+.global-nav-inner{
+    background-color: var(--nav) !important;
+    
+}
+
+#global-actions > li > a {
+    border-bottom-color: var(--twitter-blue) !important;
+}
+
+.Icon--dm{
+    color: var(--icon-color) !important;
+}
+
+.Icon--notifications{
+    color: var(--icon-color) !important;
+}
+
+.Icon--lightning{
+    color: var(--icon-color) !important;
+}
+
+.Icon--home{
+    color: var(--icon-color) !important;
+}
+
+.Icon--camera{
+    color: var(--icon-color)!important;
+}
+
+.Icon--geo{
+    color: var(--icon-color) !important
+}
+
+.icon-btn.enabled{
+    background-color: var(--weird-windows-and-stuff) !important;
+}
+
+.icon-btn:hover{
+    /* background-color: var(--nav) !important; */
+}
+
+.Icon--gif{
+    color: var(--icon-color) !important;
+}
+
+.Icon--pollBar{
+    color: var(--icon-color) !important;
+}
+
+.global-nav .search-input{ /*search bar in the navbar*/
+    color: var(--text-color) !important;
+    background-color: #314257 !important;/* Probably shouldn't be the background of the website, but it is rn */
+    border-color: var(--text-borders) !important;
+}
+
+.dropdown-menu{
+    background-color: var(--weird-windows-and-stuff) !important
+}
+
+.top-timeline-tweetbox .timeline-tweet-box .tweet-form.condensed .tweet-box{ /* the texteditor at the top of the timeline */
+    background-color: #314257 !important;
+}
+
+input, textarea, div[contenteditable], .t1-select{
+    background-color: #314257 !important;
+    color: #939ea5 !important;
+}
+
+.tweet-counter{
+    color: #939ea5 !important;
+}
+
+.tweet-btn{
+    background-color: var(--weird-windows-and-stuff) !important;
+    color: white !important;
+}
+
+.tweet-btn:hover{
+    background-color: var(--twitter-blue) !important;
+}
+
+.image-selector{
+   /* background-color: #314257 !important; */
+}
+
+.top-timeline-tweetbox .timeline-tweet-box .tweet-form.condensed .tweet-box{
+    color:#939ea5 !important;
+}
+
+.RichEditor{ /*really only for the text box's borders */
+    border-color: var(--text-borders) !important;
+    
+}
+
+.top-timeline-tweetbox .tweet-user{
+    background-color: #1f2a37 !important;
+    color: white !important;
+    border-left: var(--body-background) !important;
+    border-right: var(--body-background) !important;
+}
+
+.top-timeline-tweetbox .timeline-tweet-box{
+   /* border-left: #283647 !important; */
+    border-color: var(--body-background) !important;
+}
+
+.new-tweets-bar{
+    background-color: #314257 !important;
+    color: white !important;
+    border-left: var(--body-background) !important;
+    border-right: var(--body-background) !important;
+    border-top-color: var(--body-background) !important;
+    border-bottom-color: var(--body-background) !important;
+}
+
+.stream-item{
+    background-color: var(--tweets-and-timeline) !important;
+    border-left: var(--body-background) !important;
+    border-right: var(--body-background) !important;
+    
+}
+
+
+.stream-item+.stream-item.separated-module:not(.no-header-background-module){
+    border-top-color: var(--text-borders) !important;
+}
+
+.tweet:hover{
+    background-color: #314257 !important;
+}
+
+.DashboardProfileCard-avatarLink{
+    background-color: #314257 !important;
+}
+
+.card{
+    background-color: #283647;
+}
+
+.tweet{
+    border-bottom-color: var(--body-background) !important;
+    background-color: var(--tweets-and-timeline) !important;
+}
+
+.inline-reply-tweetbox{
+    background-color: var(--weird-windows-and-stuff) !important;
+}
+
+.tweet-text{
+    color: white;
+}
+
+.Trends{
+    background-color: #314257 !important;
+    border-color: #314257 !important;
+    /* Should match stream */
+    color: white !important;
+}
+
+.Trends .change-trends{
+    color: #75828b !important;
+}
+
+.Trends .trend-location{
+    color: #849098 !important;
+}
+
+.flex-module-header h3{
+    color: #849098 !important;
+}
+
+.flex-module-header small{
+    color: #75828b !important;
+}
+
+.flex-module-header a{
+    color: #75828b !important;
+}
+
+.flex-module-footer a{
+    color: white !important;
+}
+
+.flex-module-inner a{
+    color: white !important;
+}
+
+.DashboardProfileCard{
+    border-color: #314257 !important;
+    background-color: #314257 !important;
+    color: white !important;
+}
+
+.ProfileCardStats-statValue{
+    color: white !important;
+}
+
+.twitter-atreply b{
+    color: #4099FF !important;
+}
+
+.twitter-atreply s{
+    color: #4099FF !important;
+}
+
+.twitter-hashtag b{
+    color: #4099FF !important;
+}
+
+.twitter-hashtag s{
+    color: #4099FF !important;
+}
+
+.u-linkComplex-target.trend-name{
+    color: #4099FF !important;
+}
+
+
+.fullname{
+    color: white !important;
+}
+
+.TwitterCard {
+    background-color: white !important;
+    color: yellow !important;
+}
+
+.SummaryCard-content h2{
+    color: yellow !important;
+}
+
+.QuoteTweet-fullname {
+    color: white !important;
+}
+
+.QuoteTweet{
+    background: solid 1px #314257 !important;
+    border: var(--body-background) !important;
+}
+
+.QuoteTweet-container{
+    border: solid 1px var(--text-color) !important;
+    border-radius: inherit !important;
+}
+.stream-item-header .account-group .QuoteTweet-screenname{
+    /* The @ of the person */
+    color: #93a7c2 !important;
+}
+
+.module .flex-module{
+    background-color: #314257 !important;
+    color: white !important;
+    border-left: var(--body-background) !important;
+    border-right: var(--body-background) !important;
+    border-top-color: var(--body-background) !important;
+    border-bottom-color: var(--body-background) !important;
+}
+
+.wtf-module .import-prompt{
+    background-color: #3a4e67 !important;
+    color: white !important;
+    border: var(--body-background) !important;
+    border: var(--body-background) !important;
+}
+
+.Grid{
+    background-color: var(--body-background) !important;
+}
+
+.ProfileHeaderCard-name{
+    color: white !important;
+}
+
+.ProfileHeaderCard-bio{
+    color: #88999c !important;
+}
+
+.ProfileHeaderCard-location{
+    color: #88999c !important;
+}
+
+.ProfileHeaderCard-joinDateText{
+    color: #88999c !important;
+}
+
+.ProfileHeaderCard-birthdateText{
+    color: #88999c !important;
+}
+
+.ProfileHeading-content{
+    background-color: var(--tweets-and-timeline) !important;
+}
+
+li.ProfileNav-item.ProfileNav-item--userActions.u-floatRight.u-textRight.with-rightCaret{
+    background-color: var(--weird-windows-and-stuff) !important;
+}
+
+.following-text{
+    color: white !important;
+}
+
+.ProfilePage{
+    background-color: var(--body-background) !important !important;
+}
+.ProfileCanopy-Card{
+    background: white !important;
+}
+
+.ProfileCanopy-navbar{
+    background-color: var(--weird-windows-and-stuff) !important;
+}
+
+.ProfileCanopy-nav{
+    background-color: var(--weird-windows-and-stuff) !important;
+}
+
+/* Start Notifications Page */
+
+.NotificationsHeadingContent{
+    background-color: var(--weird-windows-and-stuff) !important;
+    border-color: var(--body-background) !important;
+}
+
+li.ProfileHeading-toggleItem.is-active{
+    color: var(--text-color) !important;
+}
+
+a.ProfileHeading-toggleLink.js-nav{
+    color: var(--text-color) !important;
+}
+
+.content-header{
+    border-color: var(--body-background) !important;
+}
+
+.stream-item-activity-notification{
+    border-bottom-color: var(--body-background) !important;
+}
+
+a.NotificationsSettingsButton.js-nav.js-tooltip{
+    color: var(--text-color) !important;
+}
+
+.stream-item-activity-line.js-actionable-user.stream-item-activity-line-notification{
+    color: var(--text-color) !important;
+}
+/* end notifs */
+
+/* moments */
+
+.MomentGuideNavigation.u-layer-top{
+    background-color: var(--weird-windows-and-stuff) !important;
+    border-bottom-color: var(--body-background) !important;
+}
+
+.MomentGuideNavigation-container{
+    background-color: var(--weird-windows-and-stuff) !important;
+    border-bottom-color: var(--body-background) !important;
+}
+
+.MomentGuideNavigation-container{
+    color: var(--text-color) !important;
+}
+
+span.MomentGuideNavigation-label{
+    color: var(--text-color) !important;
+}
+
+a.MomentGuideVTwoCapsuleSummary-title.js-default-link.js-nav.u-dir{
+    color: white !important;
+}
+
+.nav.right-actions > li > button:hover{
+    color: white !important;
+}

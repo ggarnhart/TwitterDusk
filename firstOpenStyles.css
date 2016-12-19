@@ -1,0 +1,68 @@
+body {
+    background-color: #151d26;
+}
+
+.containerForBody {
+    background-color: #283647;
+    color: white;
+    border-radius: 5px;
+}
+
+.logoContainer {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.logo {
+    width: 15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#twitterLink {
+    text-decoration: none;
+    font-family: "Source Sans Pro";
+}
+
+a:hover{
+    color: #4099FF;
+}
+
+h2 {
+    font-family: "Lobster Two";
+}
+p {
+    font-family: "Source Sans Pro";
+    font-size: 1.25em;
+}
+
+.developDiv {
+    margin-top: 1em;
+    background-color: #283647;
+    color: white;
+    border-radius: 5px;
+}
+
+span {
+    margin: .2em;
+}
+
+.donationDiv {
+    color: white;
+    border-radius: 5px;
+    margin-top: 1em;
+    background-color: #283647;
+    font-family: 'Source Sans Pro';
+    font-size: 1.25em;
+
+}
+
+#money {
+    color: #00BB00;
+    text-decoration: none;
+}
+
+#money:hover{
+    color: #00DC10;
+}

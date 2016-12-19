@@ -1,0 +1,100 @@
+<!doctype html>
+<!--
+ This page is shown when the extension button is clicked, because the
+ "browser_action" field in manifest.json contains the "default_popup" key with
+ value "popup.html".
+ -->
+<html>
+  <head>
+    <title>Night Extension Popup</title>
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Lobster+Two|Open+Sans+Condensed:500" rel="stylesheet"> 
+    <style>
+        html{
+            background-color: #314257;
+        }
+        .parent{
+          position: relative;
+          width: 400px;
+          background-color: #314257;
+        }
+        .son{
+          height: 200px;
+        }
+        .right{
+          float: right;
+          width: 50%;
+          height: 100%;
+          display: table;
+          font-family: 'Lobster Two', sans-serif;
+          color: #939ea5;
+        }
+        
+        .title{
+            font-size: 3em;
+            text-align: center;
+            display: table-cell;
+            vertical-align: middle;
+            padding-bottom: 10%;
+        }
+        
+        .left{
+          float:left;
+          width: 50%;
+          height: 100%;
+        }
+        .bottom{
+          width:100%;
+          height:40px;
+          position: absolute;
+          bottom: 0;
+          font-family: 'Open Sans Condensed', sans-serif;
+          text-align: center;
+          display: table;
+        }
+        
+        .twitterIcon{
+            width: 70%;
+            padding-left: 15%;
+            padding-top: 7%;
+        }
+        
+
+        .bottomText{
+            display: table-cell;
+            vertical-align: middle;
+            color: #939ea5;
+            font-size: 1.5em;
+        }
+        
+        a{
+            text-decoration: none;
+            color: #4099FF;
+            outline: 0;
+        }
+        
+        a:hover{
+            text-decoration: underline;
+        }
+    </style>
+  </head>
+  <body>
+<div class="parent">
+  <div class="son">
+    <div class="left">
+        <img class="twitterIcon" src="Images/Big%20Twitter%20icon.png">
+    </div>
+      
+    <div class="right">
+        <span class="title">Twitter<br>Shadow</span>
+    </div>
+
+  </div>
+  <div class="bottom">
+    <span class="bottomText">To use, please navigate to <a href='https://twitter.com' target='_blank'>twitter</a> and click this icon again.</span>
+  </div>
+</div>
+  </body>
+    <script src="jquery.js"></script>
+    <script src="Scripts/execute.js"></script>
+</html>
+
